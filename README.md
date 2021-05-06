@@ -1,2 +1,0 @@
-# app
-Projects with collaboration

@@ -54,4 +54,5 @@ $route['default_controller'] = 'registration';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['monitoring/system/registration'] = "registration/index";
+$route['monitoring/system/registration-form'] = "registration/index";
+$route['monitoring/system/registration-new'] = "registration/registration_new";

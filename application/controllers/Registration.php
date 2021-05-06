@@ -6,6 +6,7 @@ class Registration extends CI_Controller {
         parent::__construct();
         $this->load->helper(array('form', 'url', 'date'));
         // $this->load->library();
+        $this->load->model('registration_model2', 'registration');
     }
 
     public function index() {

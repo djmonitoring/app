@@ -57,7 +57,7 @@
 
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="<?=BASE_URL_CONSTANT?>monitoring/system/home" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+                <li class="nav-item"><a href="<?=BASE_URL_CONSTANT?>monitoring/system/signin" class="nav-link">Login</a></li>
                 <li class="nav-item"><a href="<?=BASE_URL_CONSTANT?>monitoring/system/registration-form" class="nav-link">Registration</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">About</a></li>

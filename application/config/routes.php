@@ -57,3 +57,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['monitoring/system/home'] = "home/index";
 $route['monitoring/system/registration-form'] = "registration/index";
 $route['monitoring/system/registration-new'] = "registration/registration_new";
+$route['monitoring/system/signin'] = "signin/index";

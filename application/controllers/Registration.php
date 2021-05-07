@@ -20,7 +20,7 @@ class Registration extends CI_Controller {
 
         $lastname = "test";
         $data["lastname"] = $lastname;
-        $id = $this->registration->insert("personal", $data);
+        $id = $this->registration->insert("personel", $data);
         
         $json["result"] = $id;
         echo json_encode($json);

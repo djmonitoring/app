@@ -33,4 +33,10 @@ class registration_model2 extends CI_Model {
         return $this->db->get($table)->row_array();
     }
 
+    public function getRegister($lastname, $firstname, $initial, $birthday, $age, $address)
+    {
+        $this->db->query("INSERT INTO personal (`lastname`,`firstname`,`initial`,`birthday`,`age`,`address`) VALUES ('$lastname','$firstname','$initial','$birthday','$age','$address')");
+        return TRUE;
+    }
+
 }

@@ -58,3 +58,7 @@ $route['monitoring/system/home'] = "home/index";
 $route['monitoring/system/registration-form'] = "registration/index";
 $route['monitoring/system/registration-new'] = "registration/registration_new";
 $route['monitoring/system/signin'] = "signin/index";
+
+$route['monitoring/system/test-update'] = "registration/test_update";
+
+$route['monitoring/system/test-delete'] = "registration/test_delete";

@@ -48,4 +48,39 @@ class Registration extends CI_Controller {
         }
     }
 
+    public function test_update() {
+        $json = array();
+        
+        // Single where
+        $field = array(
+            "Id" => 1
+        );
+        // Double where
+        $field = array(
+            "Id" => 1,
+            "lastname" => 'hd1234'
+        );
+
+
+        $data = array(
+            "lastname" => 'hd12345'
+        );
+
+        $json["result"] = $this->registration->update("personal", $field, $data);
+
+        echo json_encode($json);
+    }
+
+    public function test_delete() {
+        $json = array();
+        
+        $field = array(
+            "Id" => 1
+        );
+
+        $json["result"] = $this->registration->delete("personal", $field);
+
+        echo json_encode($json);
+    }
+
 }

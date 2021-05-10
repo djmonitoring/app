@@ -15,6 +15,14 @@ class registration_model2 extends CI_Model {
         return $id;
     }
 
+    public function update($table, $field, $data) {
+        return $this->db->update($table, $field, $data);
+    }
+
+    public function delete($table, $field) {
+        return $this->db->delete($table, $field);
+    }
+
     public function fetch_all_data($table, $orderby, $sort) {
         $this->db->select('*');
         $this->db->order_by($orderby, $sort);
